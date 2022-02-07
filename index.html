@@ -15,34 +15,34 @@
     <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <section class="section-1">
+    <section class="landing">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg sticky-top">
             <!-- Wrapping in container gives a little padding -->
             <div class="container">
-                <a href="#" class="navbar-brand">NanoLambda &comp;</a>
+                <a href="#" class="navbar-brand">NanoLambda</a>
                     <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 <div class="collapse navbar-collapse" id="navmenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#aboutus" class="nav-link">About Us</a>
+                            <a href="./views/aboutus.html" class="nav-link">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#products" class="nav-link">Products</a>
+                            <a href="./views/product.html" class="nav-link">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#casestudy" class="nav-link">Case Study</a>
+                            <a href="./views/casestudy.html" class="nav-link">Case Study</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
+                            <a href="./views/contact.html" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container welcome-box">
+        <div class="container welcome-msg">
             <div class="row">
                 <div class="col-md-12">
                     <h2><b>World's smallest, most affordable, digital spectrometer is already here.</b></h2>
@@ -54,15 +54,33 @@
         </div>
     </section>
     <!-- MESSAGING: Product Summary -->
-    <section class="messaging">
+    <section class="valueMsg">
         <div class="container">
             <div class="">
                 <h1><b>The <span class="highlight-red">sensor</span> that will power the next revolutionary IoT applications</b></h1>
                 <p>
-                    Transform the power of your products by integrating high quality mass spectroscopy data critical
-                    to building world-class AI/ML applications.The world's smallest optical spectrometer, 
-                    and the first such device for Internet-of-Things and handheld devices. It could 
-                    enable everyday analysis of food and water, color measurement, health monitoring, and pollution detection.
+                    Revolutionize your products by integrating high quality mass spectroscopy data critical
+                    to building industry leading applications. How? 
+
+                    Get a lot more precise with the measurements at the material level. 
+
+                    # WHAT PAIN POINTS DOES IT SOLVE? HOW DOES IT SOLVE THEM? 
+                    - Gathering enormous amounts of spectroscopic data doesn't have to be boring. 
+                    - Don't wait weeks for your sample analysis to come back from the lab. Get real-time measurements with clinical accuracy.
+                    - Have all your data in one place.
+                    - Stop paying for each sample measurements. Obtain each sample contiunously. 
+
+                    A great AI/ML application starts with great data. And lots of it. This data 
+
+                    - MANY APPLICATIONS IN DIFFERENT FIELDS.
+                    #1 Gives access to create clinical accuracy for material analysis
+                    #2 What does it take to become 'industry leading'? A good ML.
+                    #3 real-time data (lots of it)
+                    
+                    Buzz words: cutting edge, competitive, transparency, vision, easy-to-use, 
+                                
+
+                    It could enable everyday analysis of food and water, color measurement, health monitoring, and pollution detection.
                 </p>
             </div>
         </div>
@@ -72,11 +90,11 @@
             <div class="row text-center m-5">
                 <div class="col-md">
                     <i class="far fa-5x fa-lightbulb mb-5"></i>
-                    <h4>Lighting</h4>
+                    <h4>Adaptive Lighting</h4>
                 </div>
                 <div class="col-md">
                     <i class="fas fa-5x fa-tractor mb-5"></i>
-                    <h4>Agriculture</h4>
+                    <h4>Precision Agriculture</h4>
                 </div>
                 <div class="col-md">
                     <i class="fas fa-5x fa-tint mb-5"></i>
@@ -100,8 +118,8 @@
         </div>
     </section>
     <!-- Showcase and Pictures -->
-    <section class="text-dark p-5 text-center">
-        <div class="container showcase">
+    <section class="showcase text-dark p-5 text-center">
+        <div class="container">
             <div class="d-sm-flex">
                 <div class="row">
                     <div class="col-sm mx-5">
@@ -120,10 +138,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- SHOWCASE PANELS -->
-    <section class="text-dark p-5 text-center">
-        <div class="container showcase">
+        <div class="container">
             <div class="d-sm-flex">
                 <div class="row">
                     <!-- img-fluid bounds the image to the container and inline -->
@@ -144,7 +159,7 @@
         </div>
     </section>
     <!-- TESTIMONIAL -->
-    <section id="testimonial" class="text-dark px-5 text-center">
+    <section class="testimonial" class="text-dark px-5 text-center">
         <div class="container">
             <h3><b>Fresh From The Press</b></h3>
             <p class="lead">Awards from the industry and beyond.</p>
@@ -154,7 +169,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
-                            <img src="./images/prism.png" class="d-block w-100" alt="...">
+                            <img src="images/prism.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-dark">
                                 <h5>2021 Prism Awards Honor Photonics Innovations</h5>
                                 <p>"Each year, the Prism Awards reflect the latest exciting developments, exponential growth, and rich technical innovations
@@ -237,7 +252,7 @@
         </div>
     </section>
     <!-- SECTION: BOXES -->
-    <section id="value-proposition-boxes">
+    <section class="valuePropositionBoxes">
         <div class="d-flex container p-5 pt-5">
             <div class="row align-items-stretch text-center">
                 <!-- md allows us to stack columns below md -->
@@ -288,14 +303,15 @@
         </div>
     </section>
     <!-- MESSAGING: Product Summary -->
-    <section class="messaging">
+    <section class="valueMsg">
         <div class="container">
             <div class="">
                 <h1><b><span class="highlight-red">Unlimited</span> potential. Endless applications</b>.</h1>
                 <p>
                     Transform the power of your products by integrating high quality mass spectroscopy data critical
-                    to building world-class AI/ML applications.The world's smallest optical spectrometer,
-                    and the first such device for Internet-of-Things and handheld devices. It could
+                    to building world-class AI/ML applications. 
+                    
+                    The world's smallest optical spectrometer, and the first such device for Internet-of-Things and handheld devices. It could
                     enable everyday analysis of food and water, color measurement, health monitoring, and pollution
                     detection.
                 </p>
@@ -321,7 +337,7 @@
                 <div class="input-group mb-3" id="signup">
                     <input type="email" class="form-control" placeholder="Email">
                     <div class="input-group-append">
-                        <button class="btn btn-dark btn-outline-light" type="button">Button</button>
+                        <button class="btn btn-dark btn-outline-light" type="button">Submit</button>
                     </div>
                 </div>
             </div>
