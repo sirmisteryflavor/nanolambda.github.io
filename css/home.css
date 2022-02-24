@@ -40,6 +40,7 @@ p {
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
     url("../images/finger-3.png");
   background-repeat: no-repeat;
+  background-position: 40% 30%;
   background-attachment: fixed;
   background-size: cover;
   background-color: black;
@@ -148,13 +149,6 @@ p {
   background-size: cover;
   color: #ffffff;
 }
-
-#case-study-landing div {
-  display: flex;
-  /* width: 100%; */
-  /* height: 100vh; */
-}
-
 .divider-img {
   min-height: 780px;
   object-fit: cover;
@@ -170,19 +164,24 @@ p {
 }
 
 #case-study-2 {
-  background-image: url("../images/water.jpeg");
+  background-image: url("../images/honey.jpg");
   background-position: 25% 60%;
 }
 
 #case-study-3 {
-  background-image: url("../images/greenhouse.jpeg");
+  background-image: url("../images/water.jpeg");
+  background-position: 25% 60%;
 }
 
 #case-study-4 {
-  background-image: url("../images/makeup.jpg");
+  background-image: url("../images/greenhouse.jpeg");
 }
 
 #case-study-5 {
+  background-image: url("../images/makeup.jpg");
+}
+
+#case-study-6 {
   background-image: url("../images/weight-scale.jpg");
 }
 
@@ -199,6 +198,17 @@ section .case-summary {
 .case-summary p {
   letter-spacing: 0.2em;
   font-size: 1.5em;
+}
+
+/************************ contact-us-landing **************************/
+
+#contact-us-landing {
+  background-color: white;
+}
+
+#contact-us-msg {
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 /* NAVIGATION BARS */
@@ -452,11 +462,16 @@ section .case-summary {
     height: 200vh;
   }
 
-  section:nth-child(odd) .case-summary {
-    transform: translate(-50%, 0);
+  .case-landing {
+    transform: translate(-50%, 50%);
+    width: 80%;
   }
 
   section:nth-child(even) .case-summary {
+    transform: translate(-50%, 0);
+  }
+
+  section:nth-child(odd) .case-summary {
     transform: translate(50%, 0);
   }
   .divider-img {
