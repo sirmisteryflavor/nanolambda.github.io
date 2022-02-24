@@ -38,7 +38,7 @@ p {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("./images/finger-3.png");
+    url("../images/finger-3.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
