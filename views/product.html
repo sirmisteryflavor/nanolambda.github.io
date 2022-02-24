@@ -1,13 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="static/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;800&family=Merriweather:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/home.css">
 </head>
+
 <body>
-    <h1>This is the page about the Product</h1>
-    <p>The details listed about the product are here</p>
+    <section id="product-landing">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <!-- Wrapping in container gives a little padding -->
+            <div class="container">
+                <a href="../index.html" class="navbar-brand">NanoLambda</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="./aboutus.html" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./product.html" class="nav-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./casestudy.html" class="nav-link">Case Study</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="product-description">
+            <div class="container d-md-flex">
+                <div class="row m-5 align-items-center">
+                    <div class="col-md-8">
+                        <img src="../images/nanolambdachip-original.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <p class="lead">
+                        The NSP32-V1 from NanoLambda is the world’s smallest optical spectrometer, and the first such device for
+                        Internet-of-Things and handheld devices. It could enable everyday analysis of food and water, color measurement, health
+                        monitoring and pollution detection. The data measured by the NSP32-V1 is the same output format as conventional optical
+                        spectrum analyzers, which facilitates the use of this device without creating a new database.</p>
+                        <a href="https://www.systemplus.fr/reverse-costing-reports/nanolambda-nsp32-v1-nano-spectrometer">
+                            <h2><b>3rd Party Reverse-Cost Analysis</b></h2>
+                        </a>
+                    </div>
+                    <!-- <div class="col" data-aos="fade-in" data-aos-duration="4000" data-aos-delay="0"> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="p-5" data-aos="fade-up" data-aos-duration="4000" data-aos-delay="0">
+                <h1><b>XL-500 Spectrometer</b></h1>
+                <p>
+                    XL-500 is an ultra compact Bluetooth Spectroradiometer based on disruptive digital-nano convergence technology.
+                    While
+                    its size is compact, the features and performance is comparable to conventional industry popular equipment. It
+                    is easy
+                    and convenient to use as a portable device with smartphone app, as a spectrum recorder with internal memory and
+                    rechargeable battery. XL-500 is individually calibrated and provides device-to-device repeatability.
+                </p>
+            </div>
+            <div id="mobile-app" class="d-flex justify-content-between" data-aos="fade-up" data-aos-duration="4000"
+                data-aos-delay="0">
+                <img src="../images/nanolambda-app-1.png" class="img-fluid" alt="nanolambda mobile app 1">
+                <img src="../images/nanolambda-app-2.png" class="img-fluid" alt="nanolambda mobile app 2">
+                <img src="../images/nanolambda-app-3.png" class="img-fluid" alt="nanolambda mobile app 3">
+            </div>
+        </div>
+    </section>
+    <section id="comparison">
+        <div class="container">
+            <table class="table table-responsive" data-aos="fade-up" data-aos-duration="4000" data-aos-delay="0">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Company</th>
+                        <th scope="col">Since</th>
+                        <th scope="col">Technology</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Fab</th>
+                        <th scope="col">Release</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-primary">
+                        <th scope="row">nanoLambda</th>
+                        <td>2007/2013</td>
+                        <td>Plasmonic nano Filter Array + Reconstructive</td>
+                        <td>Spectral Sensor, Multi-Spectral Imager</td>
+                        <td>NNFC/Foundry</td>
+                        <td>2017/2019 Sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">ams Osram Group</th>
+                        <td>Unknown</td>
+                        <td>Fabry-Perot Filter Array</td>
+                        <td>Spectral sensor</td>
+                        <td>Own fab</td>
+                        <td>2020 (Delayed)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Spectricity</th>
+                        <td>2017</td>
+                        <td>Fabry-Perot Filter Array</td>
+                        <td>Spectral Sensor, Multi-Spectral Imager</td>
+                        <td>Imec/Foundry</td>
+                        <td>2023 sample estimate</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sony</th>
+                        <td>2012</td>
+                        <td>Plasmonic nano Filter Array</td>
+                        <td>Multi-spectral Imager</td>
+                        <td>Own Fab</td>
+                        <td>Unknown</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Samsung</th>
+                        <td>2017</td>
+                        <td>Plasmonic nano Filter Array</td>
+                        <td>Multi-spectral Imager (Spectral Sensor)</td>
+                        <td>Own Fab</td>
+                        <td>Unknown</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Seetrum</th>
+                        <td>2020</td>
+                        <td>Plasmonic nano Filter Array + Reconstructive</td>
+                        <td>Spectral Sensor, Multi-Spectral Imager</td>
+                        <td>NNFC/Foundry</td>
+                        <td>2023 sample estimate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="category">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <img class="img-fluid" src="../images/product-1.jpeg" alt="">
+                </div>
+                <div class="col-md-6 p-4">
+                    <img class="img-fluid" src="../images/product-2.jpeg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <div class="product-pricing">
+                        <h5><b>Product Name</b>: NSP32m</h5>
+                        <p><b>Unit Price: </b>$150.00</p>
+                    </div>
+                </div>
+                <div class="col-md-6 p-4">
+                    <div class="product-pricing">
+                        <h5><b>Product Name</b>: NSP32m</h5>
+                        <p><b>Unit Price: </b>$150.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <img class="img-fluid" src="../images/product-3.jpeg" alt="">
+                </div>
+                <div class="col-md-6 p-4">
+                    <img class="img-fluid" src="../images/product-4.jpeg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <div class="product-pricing">
+                        <h5><b>Product Name</b>: NSP32m</h5>
+                        <p><b>Unit Price: </b>$150.00</p>
+                    </div>
+                </div>
+                <div class="col-md-6 p-4">
+                    <div class="product-pricing">
+                        <h5><b>Product Name</b>: NSP32m</h5>
+                        <p><b>Unit Price: </b>$150.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-3 mb-5">
+                    <h2>About us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo nisi fuga placeat
+                        deleniti pariatur autem esse optio similique nobis odit officiis sapiente tempora,
+                        ab doloremque vel nostrum eligendi hic maiores.
+                    </p>
+                </div>
+
+                <div class="col-md-3 mb-5">
+                    <h2>Quick Links</h2>
+                    <ul class="list-unstyled footer-link">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Testimonials</a></li>
+                        <li><a href="">Our Pets</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-1 mb-5 me-auto">
+
+                </div>
+
+                <div class="col-md-5 mb-5 me-auto">
+                    <h2>Contact &amp; Address</h2>
+                    <ul class="list-unstyled footer-link">
+                        <li class="d-flex">
+                            <span class="me-3">Address:</span>
+                            <span class="text-white"> 5000 Chestnut Rd, Lansing, Michigan</span>
+                        </li>
+                        <li class="d-flex">
+                            <span class="me-3">Telephone:</span>
+                            <span class="text-white"> 5000 Chestnut Rd, Lansing, Michigan</span>
+                        </li>
+                        <li class="d-flex">
+                            <span class="me-3">Email:</span>
+                            <span class="text-white"> 5000 Chestnut Rd, Lansing, Michigan</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 text md center text-center">
+                    <p>This template is made by nanoLambda</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1100,
+            // offset: 200,
+            delay: 300
+        });
+    </script>
 </body>
+
 </html>

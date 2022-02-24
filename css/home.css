@@ -17,8 +17,7 @@ p {
 }
 
 /* SECTION Landing screen. */
-
-#background-video {
+/* #background-video {
   width: 100%;
   height: 100vh;
   object-fit: cover;
@@ -27,15 +26,23 @@ p {
   right: 0;
   top: 0;
   bottom: 0;
-  z-index: -1;
-}
+  z-index: -10;
+} */
 
 .landing {
-  height: 100vh;
+  /* height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+    url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/finger-3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
 }
 
 .landing .welcome-msg {
@@ -48,32 +55,211 @@ p {
   max-width: 80%;
 }
 
+#about-us-landing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("https://images.unsplash.com/photo-1562476289-227b5f0fe16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1781&q=80");
+}
+
+/* Product Page */
+.product-description {
+  letter-spacing: 2px;
+}
+.product-description a {
+  text-decoration: none;
+  color: white;
+}
+
+#comparison {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#comparison table {
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+#product-landing {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#mobile-app img {
+  max-height: 650px;
+  border-radius: 3%;
+}
+
+.mission .row {
+  color: white;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  /* transform: translate(0, -10%); */
+}
+
+.mission .row .h2 {
+  font-size: 1.5rem;
+}
+
+#company-intro {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  width: 100%;
+}
+
+#meet-the-team {
+  background-color: #021b28;
+  color: white;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  width: 100%;
+}
+
+#meet-the-team .container {
+  height: 100%;
+}
+
+#meet-the-team h1 {
+  font-size: 1.875em;
+}
+
+#team-members {
+  /* height: 90vh; */
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+
+#team-members .card {
+  border: none;
+}
+
+#team-members img {
+  border-radius: 50%;
+}
+
+/**************************** CASE STUDY SITE ****************************/
+#case-study-landing {
+  height: 100vh;
+  width: 100%;
+  background-image: 
+  /* linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), */ url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/seoul-station.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#case-study-landing div {
+  display: flex;
+  /* width: 100%; */
+  /* height: 100vh; */
+}
+
+.divider-img {
+  min-height: 780px;
+  object-fit: cover;
+}
+
+.case-study {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#case-study-2 {
+  background-image: url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/water.jpeg");
+  background-position: 25% 60%;
+}
+
+#case-study-3 {
+  background-image: url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/greenhouse.jpeg");
+}
+
+#case-study-4 {
+  background-image: url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/makeup.jpg");
+}
+
+#case-study-5 {
+  background-image: url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/weight-scale.jpg");
+}
+
+.case-summary-container {
+  height: 100%;
+}
+
+section .case-summary {
+  background: rgba(0, 0, 0, 0.9);
+  max-width: 700px;
+  font-weight: 200;
+}
+
+.case-summary p {
+  letter-spacing: 0.2em;
+  font-size: 1.5em;
+}
+
 /* NAVIGATION BARS */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: none;
+  /* rgba(0, 0, 0, 0.1); */
 }
 
 .navbar-toggler {
   border-color: white;
 }
 
-/* SECTION valueMsg. */
-.valueMsg div {
-  display: flex;
-  flex-direction: column;
-  max-width: 70%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-top: 7%;
-  padding-bottom: 2%;
-}
-
-/* INDUSTRY APPLICATION SECTION. */
-.industries {
+/* */
+.valueMsg {
   padding-bottom: 7%;
 }
 
+/* SECTION valueMsg. */
+.valueMsg div {
+  display: flex;
+  /* flex-direction: column; */
+  /* max-width: 70%; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#valueMsg-2 {
+  background-color: white;
+  height: 75vh;
+  width: 100%;
+  flex: wrap;
+  /* height: auto; */
+}
+
+/* #valueMsg-2 .outer { */
+/* position: relative; */
+/* width: 50%; */
+/* } */
+
+/* #valueMsg-2 img { */
+/* position: absolute; */
+/* bottom: 0; */
+/* left: 0; */
+/* width: 100%; */
+/* } */
+
+/* #valueMsg-2 div { */
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/finger.png"); */
+/* height: 100vh; */
+/* width: 100%; */
+/* background-repeat: no-repeat; */
+/* background-attachment: fixed; */
+/* background-size: cover; */
+/* color: #ffffff; */
+/* } */
+
+/* INDUSTRY APPLICATION SECTION. */
 .highlight-red {
   color: rgb(4, 42, 62);
 }
@@ -81,6 +267,47 @@ p {
 /* SHOWCASE SECTION  */
 .showcase {
   font-weight: 100;
+}
+
+.showcase .container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+}
+
+.showcase h1 {
+  padding: 5rem;
+  font-size: 3.2rem;
+  font-family: "Merriweather", serif;
+}
+
+.showcase .card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  background: #ffffff;
+  margin-bottom: 3rem;
+  border: none;
+}
+
+.showcase .card img {
+  max-height: 500px;
+  height: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  object-fit: cover;
+  object-position: bottom;
+  /* -ms-transform: translate(-50%, 0); */
+  /* -webkit-transform: translate(-50%, 0); */
+}
+
+.showcase .card > div {
+  padding: 2rem;
+}
+
+.showcase .card:nth-child(even) img {
+  order: 2;
 }
 
 /* TESTIMONIAL SECTION */
@@ -127,6 +354,64 @@ p {
   height: 100%;
 }
 
+/* Footer Section */
+.section-subscribe {
+  padding-top: 5em;
+  background: #333333;
+  color: #fff;
+}
+.form-control {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  height: 50px;
+}
+.form-control:focus {
+  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+}
+.form-control:focus,
+.form-control:active {
+  outline: none;
+}
+.btn {
+  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+}
+.btn.btn-secondary {
+  color: #fff;
+  border-width: 2px;
+  background: #bc5148;
+  border-color: #bc5148;
+  padding: 10px;
+}
+.site-footer {
+  padding: 5em 0;
+  background: #333333;
+  font-size: 14px;
+  color: #868e96;
+}
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+.site-footer a {
+  color: #ffc107;
+  border-bottom: 1px solid transparent;
+}
+.site-footer a:hover {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.site-footer h2 {
+  font-size: 22px;
+  margin-bottom: 29px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.site-footer .footer-link li {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
 /* FOOTER SECTION */
 #signup div div {
   justify-content: center;
@@ -146,10 +431,58 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .valueMsg {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7%;
+  }
+  #meet-the-team h1 {
+    font-size: 3.875em;
+  }
+  #product-landing {
+    height: 100vh;
+  }
+  #valueMsg-2 div img {
+    /* position: absolute; */
+    /* left: 0; */
+    width: 1000px;
+  }
+
+  .case-study {
+    height: 200vh;
+  }
+
+  section:nth-child(odd) .case-summary {
+    transform: translate(-50%, 0);
+  }
+
+  section:nth-child(even) .case-summary {
+    transform: translate(50%, 0);
+  }
+  .divider-img {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
   .valueMsg div {
     max-width: 90%;
+  }
+
+  .valueMsg-2 img {
+    width: 100%;
+  }
+
+  .valuePropositionBoxes .card {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10%;
+  }
+  .showcase .card {
+    display: block;
+  }
+  #valueMsg-2 div {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
