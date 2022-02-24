@@ -38,7 +38,7 @@ p {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/finger-3.png");
+    url("./images/finger-3.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -142,7 +142,7 @@ p {
   height: 100vh;
   width: 100%;
   background-image: 
-  /* linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), */ url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/seoul-station.jpg");
+  /* linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), */ url("../seoul-station.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -170,20 +170,20 @@ p {
 }
 
 #case-study-2 {
-  background-image: url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/water.jpeg");
+  background-image: url("../images/water.jpeg");
   background-position: 25% 60%;
 }
 
 #case-study-3 {
-  background-image: url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/greenhouse.jpeg");
+  background-image: url("../images/greenhouse.jpeg");
 }
 
 #case-study-4 {
-  background-image: url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/makeup.jpg");
+  background-image: url("../images/makeup.jpg");
 }
 
 #case-study-5 {
-  background-image: url("/Users/blueberrypie/projects/websites/nanolambda.github.io/images/weight-scale.jpg");
+  background-image: url("../images/weight-scale.jpg");
 }
 
 .case-summary-container {
